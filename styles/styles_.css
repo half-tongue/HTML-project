@@ -1,9 +1,27 @@
+html {
+    font-size: large;
+}
+
 body {
     width: 1050px;
-    margin: 40px auto;
+    margin: 40px auto; /* fix boxes */
     background-color: rgb(216, 209, 193);
+    padding: 20px 20px; 
+    border: 10px black; 
+}
+
+h1 {
+    text-align: justify; /* fix boxes */
+    margin: 10px 10px;
     padding: 20px 20px;
-    border: 10px black;
+    color: rgb(201, 145, 126);
+    text-shadow: 4px 5px 4px black;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .titlerow1,
