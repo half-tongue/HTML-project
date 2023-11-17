@@ -1,5 +1,5 @@
-html {
-    font-size: large;
+main {
+    font-size: medium;
 }
 
 body {
@@ -10,18 +10,32 @@ body {
     border: 10px black; 
 }
 
-h1 {
-    text-align: justify; /* fix boxes */
-    margin: 10px 10px;
+h1 { 
+    margin: 10px 10px; /* fix boxes */
     padding: 20px 20px;
-    color: rgb(201, 145, 126);
     text-shadow: 4px 5px 4px black;
+    font-family: "Nabla";
+    font-size: 60px;
+    text-align: center;
+    font-display: swap;
+}
 
+h2 {
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    text-align: end;
+    font-display: swap;
 }
 
 .topnav {
     display: flex;
-    justify-content: space-evenly;
+    gap: 8px;
+    list-style: none;
+}
+
+.navitem {
+    padding: 5px;
+    color: chartreuse;
 }
 
 .titlerow1,
@@ -36,3 +50,16 @@ h1 {
 .scenario {
     background-color: rgb(208, 81, 102);
 }
+
+#insipirations {
+
+    box-shadow: 3px 3px 3px black;
+}
+
+/* footer{
+    
+}
+*/
+
+/* animations (transition), gradient colours, edit selection properties
+(colours) */
