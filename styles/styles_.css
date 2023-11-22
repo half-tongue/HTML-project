@@ -1,10 +1,10 @@
-#logo {
-    display: block;
- /* margin: */
-}
-
 main {
     font-size: medium;
+}
+
+::selection {
+    color: rgb(226, 205, 103);
+    background-color: rgb(204, 102, 153);
 }
 
 body {
@@ -33,34 +33,50 @@ h2 {
 }
 
 header ul {
-    background-color: rgb(227, 201, 97);
+    background-color: rgb(226, 205, 103);
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+   justify-content: flex-start;
 }
 
 header li {
     list-style: none;
     display: inline-block;
-    padding: 30px 10px; 
+    padding: 0px 10px; 
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(204, 102, 153);
 }
 
 .titlerow1,
 .titlerow2 {
-    background-color: rgb(227, 201, 97);
+    background-color: rgb(226, 205, 103);
 }
 
 .meal {
-    background-color: rgb(211, 150, 85);
+    background-color: rgb(223, 184, 64);
 }
 
 .scenario {
-    background-color: rgb(214, 100, 117);
+    background-color: rgb(211, 123, 167);
 }
 
-#insipirations {
-
+.inspos {
+    display: flex;
+    flex-direction: column;
     box-shadow: 3px 3px 3px black;
 }
+/* add some scroll features here */
 
 /* footer{
     
