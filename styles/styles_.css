@@ -4,7 +4,6 @@
 }
 
 ::selection, 
-header a:hover, 
 .scenario,
 #topbutt {
     color: rgb(226, 205, 103);
@@ -31,11 +30,8 @@ h1 {
     font-display: swap;
 }
 
-h2 {
-    font-family: "Roboto Condensed";
-    font-size: 30px;
-    text-align: start;
-    font-display: swap; /* in case there is problems with loading the text */ 
+.logobox {
+    height: 70px;  
 }
 
 header nav {
@@ -48,14 +44,28 @@ header nav {
 header li {
     list-style: none;
     display: inline-block;
-    padding: 0px 10px; 
+    padding: 25.8px;
+}
+
+header li:hover {
+    background-color: rgb(212, 193, 97);
 }
 
 header a {
     text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    text-align: start;
+    font-display: swap; /* in case there is problems with loading the text */ 
 }
 
 #about {
+    padding: 10px;
     background-image: linear-gradient(to right, rgb(236, 128, 149), rgb(210, 190, 62));
 }
 
