@@ -1,10 +1,10 @@
-console.log('Hello world!');
-/*
+/* console.log('Hello world!');
+--
 multiline comment
 multiline comment
 multiline comment
 multiline comment
-*/
+--
 console.log('Hello, World!'); // just saying hello
 
 const DOB = 'Feb 27 1995'
@@ -38,11 +38,11 @@ console.log(fruits);
 let slicedOrange = fruits[2].split('');
 console.log(slicedOrange);
 
-/*
+--
 function sayName() { // ES5
     console.log('My name is Connie');
 }
-*/
+--
 
 let sayName = (name, fruit) => { // ES6
     console.log('My name is ' + name + '. My favourite fruit is ' + fruit + '.');
@@ -55,13 +55,13 @@ sayName("Connie", fruits[1]);
 sayName(firstName, 10);
 sayName("Stephen", fruits[3]);
 
-/*
+--
 console.log(typeof peel);
 console.log(peel == undefined);
 if (peel != 1) {
     console.log(`Sorry, no peel.`);
 }
-*/
+--
 
 for (let i = 0; i < fruits.length; i++) { // for loop
     sayName("Bob", fruits[i]);
@@ -72,3 +72,6 @@ while (j < fruits.length) { // while loop
     sayName("Bob", fruits[j]);
     j++;
 }
+*/
+
+document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();
