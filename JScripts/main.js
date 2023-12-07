@@ -75,3 +75,21 @@ while (j < fruits.length) { // while loop
 */
 
 document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();
+
+function buttonAlert() { /* go to top */
+    alert("BLASTOFFFFFFF!");
+}
+
+document.getElementById("topbutt").onmouseover = () => {
+    document.getElementById("topbutt").innerText = "Blastoff?";
+}
+
+document.getElementById("topbutt").onmouseleave = () => {
+    document.getElementById("topbutt").innerText = "Top";
+}
+
+let count = 0;
+document.getElementById("countButt").onclick = () => {
+    count += 1;
+    document.getElementById("countText").innerHTML = `You've tickled ${count} times`;
+}
