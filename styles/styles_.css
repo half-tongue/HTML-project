@@ -231,6 +231,16 @@ footer {
     align-self: center;
 }
 
+.evenColor {
+    color: rgb(226, 205, 103);
+    text-shadow: 1px 1px 2px black;
+}
+
+.oddColor {
+    color: rgb(204, 102, 153);
+    text-shadow: 1px 1px 2px black;
+}
+
 footer a {
     text-decoration: none;
     color: black;

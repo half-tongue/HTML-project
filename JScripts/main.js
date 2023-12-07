@@ -74,7 +74,7 @@ while (j < fruits.length) { // while loop
 }
 */
 
-document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();
+document.getElementById("copyrightYear").innerHTML = new Date().getFullYear()
 
 function buttonAlert() { /* go to top */
     alert("BLASTOFFFFFFF!");
@@ -91,5 +91,23 @@ document.getElementById("topbutt").onmouseleave = () => {
 let count = 0;
 document.getElementById("countButt").onclick = () => {
     count += 1;
-    document.getElementById("countText").innerHTML = `You've tickled ${count} times`;
+    document.getElementById("countNum").innerHTML = count;
+    if (count % 2 == 0) {
+        document.getElementById("countNum").classList.toggle("oddColor");
+        document.getElementById("countNum").classList.add("evenColor");
+    } else {
+        document.getElementById("countNum").classList.toggle("evenColor");
+        document.getElementById("countNum").classList.add("oddColor");
+    }
 }
+
+for (let i = 0; i < 100; i += 1) {
+    let listItem = document.createElement("li");
+    if (i % 2 === 0) {
+        listItem.textContent = "even";
+    } else {
+        listItem.textContent = "odd";
+    }
+    document.getElementById("lottaNumbs").appendChild(listItem);
+  }
+
